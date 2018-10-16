@@ -1,0 +1,88 @@
+body {
+    background: rgb(255, 255, 230);
+    text-align: center;
+    font-family: 'Kristen ITC', Guatami;
+}
+
+#frame {
+    width: 1240px;
+    height: 1030px;
+    margin: auto;
+    padding: 20px;
+}
+
+#header {
+    width: 1000px;
+    height: 30px;
+    margin: auto;
+}
+
+#buttonGroup {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.button {
+    background: orange;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-style: outset;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: rgb(230, 149, 0);
+}
+
+#title {
+    width: 1000px;
+    margin: auto;
+}
+
+#spacer {
+    height: 20px;
+}
+
+#description {
+    width: 1000px;
+    height: 30px;
+    margin: auto;
+}
+
+#page {
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+}
+
+#legendArea {
+    width: 1000px;
+    height: 80px;
+    margin: auto;
+}
+
+#legendTitle {
+    width: 1000px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    margin: auto;
+}
+
+text {
+    pointer-events: none;
+}
+
+#tooltip {
+    display: none;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    width: 230px;
+    text-align: left;
+    background: rgb(237, 226, 109);
+    padding: 10px;
+    border-radius: 10px;
+}
